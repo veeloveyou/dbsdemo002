@@ -12,7 +12,7 @@ $items = array();
 
 for($i - 0; $i < 10; $i++) {
 $personRecord = new Person();
-$personRecord ->personID = $i;
+$personRecord->personID = $i;
 $personRecord->firstName = "Name $i";
 $personRecord->lastName = "LastName $i";
 $items[$i] = $personRecord;
