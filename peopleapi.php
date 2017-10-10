@@ -16,6 +16,7 @@ $personRecord ->personID = $i;
 $personRecord->firstName = "Name $i";
 $personRecord->lastName = "LastName $i";
 $items[$i]= $personRecord;
+}
 
 header('Content-Type; application/json');
 
