@@ -23,3 +23,4 @@ $jsonOutput = json_encode($items);
 
 echo $jsonOutput;
 
+?>
